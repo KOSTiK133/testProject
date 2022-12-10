@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = ru>
+<head>
+    <meta charset="utf-8">
+    <title> Регистрация</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+<div id ="footer" >
+    <label id ="nameAuth"></label>
+    <button id = "exit">Выйти</button>
+</div>
+<div id ="form">
+<form id ="regist" >
+    <p class="login">
+        <label for="login">Логин</label>
+        <input maxlength="25" size="40" name="login" id = "login" type="text">
+        <label for="login" id ="errorLogin" class="error"></label>
+        <label for="login" id ="errorRegLogin" class="error"></label>
+
+    </p>
+    <p class="password">
+        <label for="pass">Пароль</label>
+        <input maxlength="25" size="40" name="password" id ="pass" type="password">
+        <label for="pass" id ="errorPassword" class="error"></label>
+
+    </p>
+    <p class="confirm_password">
+        <label for="confirm">Подтвердите пароль</label>
+        <input maxlength="25" size="40" name="confirm_password" id = "confirm" type="password">
+        <label for="confirm" id ="errorConfirm" class="error"></label>
+    </p>
+    <p class="email">
+        <label for="email">E-mail</label>
+        <input maxlength="25" size="40" name="email" id ="email" type="email">
+        <label for="email" id ="errorEmail" class="error"></label>
+    </p>
+    <p class="name">
+        <label for="name">Имя</label>
+        <input maxlength="25" size="40" name="name" id = "name" type="text">
+        <label for="name" id ="errorName" class="error"></label>
+    </p>
+    <input name="test"
+           type="button"
+           value="Регистрация" id="test">
+</form>
+
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>
